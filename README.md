@@ -1,8 +1,10 @@
-# Kill The Queue Project - Mobile Application (Flutter/Android)
+# Kill The Queue Project (2018/19) - Mobile Application (Flutter/Android)
 
 An android mobile application that allows users to skip the queue when buying groceries and goods from supermarkets and convenience stores. Uses QR code functionality to scan for products, and make payment through the app.
 
-Project was made with my group of 5 other students, as submission for our diploma final year project.
+Kill The Queue was developed by me and 5 other group members, as submission for our schools final year project.
+
+Project originating from Temasek Polytechnic, Diploma in Business Information Technology Final Year Project (2018/19), in collaboration with GovTech. 
 
 ## Screenshots
 ![app_sc_1](https://user-images.githubusercontent.com/33335872/167566943-d9b355d6-c5b6-40ca-b14c-81dd6b3df804.png)
