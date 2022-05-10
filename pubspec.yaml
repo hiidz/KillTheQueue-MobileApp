@@ -1,0 +1,187 @@
+name: kill_the_queue
+description: A Temasek Polytechnic, MP02, FYP Project. In collaboration with GovTech
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_places_dialog:
+    git: git://github.com/sirhidz/Private_Places_Dialog.git
+                 
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icon
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0
+  intro_slider: ^1.0.8
+  shared_preferences: ^0.4.3
+  barcode_scan: ^0.0.8
+  modal_progress_hud: ^0.1.2
+  intl: ^0.15.7
+  geocoder: ^0.1.1
+  location: ^1.4.1
+  flutter_masked_text: ^0.7.0
+  font_awesome_flutter: ^8.2.0
+  flutter_slidable: ^0.4.9
+  flutter_swiper: ^1.1.4
+  gradient_app_bar: ^0.0.1
+  draggable_scrollbar: ^0.0.4
+ 
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/tutorial/Tutorial_1.jpeg
+    - assets/tutorial/Tutorial_2.png
+    - assets/tutorial/Tutorial_3.jpeg
+    - assets/tutorial/Tutorial_4.jpeg
+    - assets/title/Killed_the_que-06.png
+    - assets/title/Killed_the_que-03.png
+    - assets/title/Killed_the_que-04.png
+    - assets/background/login_background.jpg
+    - assets/background/signup_background.jpg
+    - assets/background/homeauth_background.jpg
+    - assets/extras/addbutton.png
+    - assets/extras/drawer_background.jpg
+    
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+   - family: Roboto-Light
+     fonts:
+       - asset: assets/fonts/Roboto/Roboto-Light.ttf
+       - asset: assets/fonts/Roboto/Roboto-LightItalic.ttf
+         style: italic
+   - family: Roboto-Regular
+     fonts:
+       - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+       - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+         style: italic
+   - family: Roboto-Medium
+     fonts:
+       - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+       - asset: assets/fonts/Roboto/Roboto-MediumItalic.ttf
+         style: italic
+   - family: Roboto-Thin
+     fonts:
+       - asset: assets/fonts/Roboto/Roboto-Thin.ttf
+       - asset: assets/fonts/Roboto/Roboto-ThinItalic.ttf
+         style: italic
+   - family: Roboto-Bold
+     fonts:
+       - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+       - asset: assets/fonts/Roboto/Roboto-BoldItalic.ttf
+         style: italic
+   - family: Roboto-Black
+     fonts:
+       - asset: assets/fonts/Roboto/Roboto-Black.ttf
+       - asset: assets/fonts/Roboto/Roboto-BlackItalic.ttf
+         style: italic
+   - family: OpenSans-Light
+     fonts:
+       - asset: assets/fonts/OpenSans/OpenSans-Light.ttf
+       - asset: assets/fonts/OpenSans/OpenSans-LightItalic.ttf
+         style: italic
+   - family: OpenSans-Regular
+     fonts:
+       - asset: assets/fonts/OpenSans/OpenSans-Regular.ttf
+       - asset: assets/fonts/OpenSans/OpenSans-Italic.ttf
+         style: italic
+   - family: OpenSans-Bold
+     fonts:
+       - asset: assets/fonts/OpenSans/OpenSans-Bold.ttf
+       - asset: assets/fonts/OpenSans/OpenSans-BoldItalic.ttf
+         style: italic
+   - family: OpenSans-SemiBold
+     fonts:
+       - asset: assets/fonts/OpenSans/OpenSans-SemiBold.ttf
+       - asset: assets/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf
+         style: italic
+   - family: OpenSans-ExtraBold
+     fonts:
+       - asset: assets/fonts/OpenSans/OpenSans-ExtraBold.ttf
+       - asset: assets/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf
+         style: italic
+   - family: Montserrat-Light
+     fonts:
+       - asset: assets/fonts/Montserrat/Montserrat-Light.ttf
+       - asset: assets/fonts/Montserrat/Montserrat-LightItalic.ttf
+         style: italic
+   - family: Montserrat-Regular
+     fonts:
+       - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+       - asset: assets/fonts/Montserrat/Montserrat-Italic.ttf
+         style: italic
+   - family: Montserrat-Bold
+     fonts:
+       - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+       - asset: assets/fonts/Montserrat/Montserrat-BoldItalic.ttf
+         style: italic
+   - family: Montserrat-SemiBold
+     fonts:
+       - asset: assets/fonts/Montserrat/Montserrat-SemiBold.ttf
+       - asset: assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf
+         style: italic
+   - family: Montserrat-ExtraBold
+     fonts:
+       - asset: assets/fonts/Montserrat/Montserrat-ExtraBold.ttf
+       - asset: assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf
+         style: italic
+   - family: Montserrat-Black
+     fonts:
+       - asset: assets/fonts/Montserrat/Montserrat-Black.ttf
+       - asset: assets/fonts/Montserrat/Montserrat-BlackItalic.ttf
+         style: italic
+   - family: Montserrat-ExtraLight
+     fonts:
+       - asset: assets/fonts/Montserrat/Montserrat-ExtraLight.ttf
+       - asset: assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf
+         style: italic
+   - family: Montserrat-Medium
+     fonts:
+       - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+       - asset: assets/fonts/Montserrat/Montserrat-MediumItalic.ttf
+         style: italic
+   - family: Montserrat-Thin
+     fonts:
+       - asset: assets/fonts/Montserrat/Montserrat-Thin.ttf
+       - asset: assets/fonts/Montserrat/Montserrat-ThinItalic.ttf
+         style: italic
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
